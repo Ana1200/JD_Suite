@@ -103,21 +103,33 @@ require 'header.php';
 </div>
 
 <!--CARRUSEL DE OPCIONES-->
-<div id="carouselExampleAutoplaying" class="carousel slide h-80" data-bs-ride="carousel">
+<div id="carouselExampleAutoplaying" class="carousel slide h-25" data-bs-ride="carousel">
   <div class="carousel-inner">
-    <div class="carousel-item active">
+    <div class="carousel-item active" height="30%">
         <center>
-        <img src="../public/imagenes/playv.png" class="d-block " width="50%" height="50%" alt="...">
+        <img src="../public/imagenes/playv.png" class="d-block "  height="10%" alt="...">
+        <h5>Funciona para cualquier giro </h5>
+        <p>
+        Es aplicable para una gran gama de giros, controla tus inventarios, ventas, compras y gestiona tus clientes y te apoya
+         a detectar áreas de oportunidad para tu negocio, es fácil de usar y ofrece herramientas avanzadas de administración y 
+         operación, brinda información que simplifica la administración de tu negocio.
+        </p>
         </center>
-      <p>
-      Funciona para cualquier giro
-      </p>
+      
     </div>
-    <div class="carousel-item">
-      <img src="..." class="d-block w-100" alt="...">
+    <div class="carousel-item"width="50%" height="30%">
+    <center>
+        <img src="../public/imagenes/rstore.png" class="d-block "  height="20%" alt="...">
+        <h5>Requisitos del sistema</h5>
+        
+    </center>
     </div>
-    <div class="carousel-item">
-      <img src="..." class="d-block w-100" alt="...">
+    <div class="carousel-item"width="50%" height="30%">
+    <center>
+        <img src="../public/imagenes/cloud.png" class="d-block " height="20%" alt="...">
+        <h5>JD Clou</h5>
+        
+    </center>
     </div>
   </div>
   <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
@@ -129,6 +141,10 @@ require 'header.php';
     <span class="visually-hidden">Next</span>
   </button>
 </div>
+
+
+<!--TIPOS DE LICENCIA-->
+<div class="col-12"></div>
 
   <!--PARTE DE WHATS-->
   <div class="msgwh">
