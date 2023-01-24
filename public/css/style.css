@@ -6,7 +6,7 @@
 .navbar-light .navbar-nav .nav-link{
     color:#FFFFFF;
     font-family:"Kalinga";
-    font-size:18px;
+    font-size:20px;
     width:max-content;
     padding:14px;
     line-height: 32px;
@@ -52,6 +52,48 @@
     background: url(../imagenes/indexv.png) no-repeat top;
     background-size: cover;
   }
+  .imgbgst {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    background: url(../imagenes/storev.png) no-repeat top;
+    background-size: cover;
+}
+.imgbgres{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    background: url(../images/restv.png) no-repeat top;
+    background-size: cover;
+  }
+  .imgbginv{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    background: url(../images/invoicev.png) no-repeat top;
+    background-size: cover;
+  }
+  .imgbgtae{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    background: url(../images/taev.png) no-repeat top;
+    background-size: cover;
+  }
+  .imgbgeco{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    background: url(../images/ecommv.png) no-repeat top;
+    background-size: cover;
+  }
+  .imgbgceo{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    background: url(../images/ceov.png) no-repeat top;
+    background-size: cover;
+  }
   .bloques{
     padding: 2%;
   }
@@ -66,3 +108,71 @@
     text-align: center;
     font-size: 45px;
   }
+  .padlp {
+    padding: 1% 0% 2% 0%;
+}
+.form-servicioslp{
+    /*margin-top: 15%;*/
+    padding:5% 2% 10% 2%;
+    background-color:rgba(255, 255, 255, 0.9);
+    border-radius: 15px;
+    color: #FFFFFF;
+  }
+  .text-servicioslp {
+    text-align: center;
+    color: #000000;
+    font-size: 16px;
+    padding: 0 0% 1% 0;
+    opacity: 1;
+    font-weight: bold;
+}
+.text-pform {
+    text-align: center;
+    color: #000000;
+    font-size: 18px;
+    font-weight: normal;
+    width: 100%;
+    padding: 0% 0 1% 0;
+}
+  .form-servicioslp2{
+    /*margin-top: 15%;*/
+    padding:5% 2% 5% 2%;
+    background-color:rgba(255, 255, 255, 0.9);
+    border-radius: 15px;
+    color: #FFFFFF;
+  }
+  .form-servicios2{padding:2% 2% 2% 2%;border:#5F7EA8 solid 1px;}
+  .form-servicioslp {
+    /* margin-top: 15%; */
+    padding: 5% 2% 10% 2%;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 15px;
+    color: #FFFFFF;
+}
+.text-serviciostc {
+    text-align: center;
+    color: #000000;
+    font-size: 14px;
+    padding: 0 0% 1% 0;
+    opacity: 1;
+    font-weight: bold;
+}
+.text-pform {
+    text-align: center;
+    color: #000000;
+    font-size: 18px;
+    font-weight: normal;
+    width: 100%;
+    padding: 0% 0 1% 0;
+}
+.logolp {
+    width: 80%;
+}
+.row{margin:0;padding:0;}
+.color{
+    background-color: #a6d0fc;
+    border-color: #a6d0fc;
+}
+.yout{
+    height: 100%;
+}

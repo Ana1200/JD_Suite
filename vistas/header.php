@@ -15,7 +15,7 @@
 </head>
 <body>
   <nav class="navbar navbar-expand-lg navbar-light " style="background-color: #a6d0fc!important;">
-      <a class="navbar-brand" href="#">
+      <a class="navbar-brand" href="./index.html">
         <img src="../public/imagenes/logoJD.png" alt="">
       </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -24,7 +24,7 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link" href="#">JD Store</a>
+            <a class="nav-link" href="./JD_Store.php">JD Store</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#" >JD Rest</a>
