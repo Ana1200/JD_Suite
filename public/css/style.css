@@ -16,7 +16,7 @@
     margin: 30%;
 }
 .pad{
-    padding: 10% 10% 0% 10%;
+    padding: 10% 0% 0% 10%;
 }
 .inicio {
     padding: 10% 2% 10% 2%;
@@ -39,6 +39,11 @@
     background-color: #a6d0fc;
     border-color: #a6d0fc;
 }
+.paddbot2 {
+    text-align: center;
+    background-color: #a6d0fc;
+    border-color: #a6d0fc;
+}
 
 .imgindex{
     width: 100%;
@@ -50,6 +55,14 @@
   .bloques{
     padding: 2%;
   }
-  .sembloques{
-    background-color: #d1d0d0;
+  .msgwh{
+    position: fixed;
+    z-index: 9999;
+    height: 50px;
+    line-height: 50px;
+    width: 50px;
+    bottom: 10px;
+    right: 10px;
+    text-align: center;
+    font-size: 45px;
   }
