@@ -103,10 +103,12 @@ require 'header.php';
 </div>
 
 <!--CARRUSEL DE OPCIONES-->
-<div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+<div id="carouselExampleAutoplaying" class="carousel slide h-80" data-bs-ride="carousel">
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="../public/imagenes/playv.png" class="d-block " width="100%" height="100%" alt="...">
+        <center>
+        <img src="../public/imagenes/playv.png" class="d-block " width="50%" height="50%" alt="...">
+        </center>
       <p>
       Funciona para cualquier giro
       </p>
