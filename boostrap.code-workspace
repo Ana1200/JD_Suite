@@ -1,0 +1,49 @@
+{
+	"folders": [
+		{
+			"path": "../../../Users/ana28/OneDrive/Documentos/boostrap"
+		},
+		{
+			"path": "../vue"
+		},
+		{
+			"path": "../php-oop"
+		},
+		{
+			"path": "../../../Users/ana28/OneDrive/Documentos/hola"
+		},
+		{
+			"path": "../php-oop-iot"
+		},
+		{
+			"path": "../tecnologias"
+		},
+		{
+			"path": "../clever-cloud"
+		},
+		{
+			"path": "../API-ANALOGICO"
+		},
+		{
+			"path": "../../../Users/ana28/OneDrive/Documentos/Readme"
+		},
+		{
+			"path": "../../../Users/ana28/OneDrive/Documentos/simulacion_de_procesos_de_negocio-2"
+		},
+		{
+			"path": "../../../Users/ana28/OneDrive/Documentos/3.4 Modelos_de_procesos_de_negocio"
+		},
+		{
+			"path": "../../../Users/ana28/Downloads/3D"
+		},
+		{
+			"path": "../sistema"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "3D"
+	}
+}
