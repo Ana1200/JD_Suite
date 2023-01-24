@@ -47,3 +47,9 @@
     background: url(../imagenes/indexv.png) no-repeat top;
     background-size: cover;
   }
+  .bloques{
+    padding: 2%;
+  }
+  .sembloques{
+    background-color: #d1d0d0;
+  }
