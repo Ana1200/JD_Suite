@@ -1,3 +1,6 @@
+<?php
+require 'header.php';
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,63 +9,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JD_Suite</title>
 
-    <link rel="stylesheet" href="./public/css/style.css">
+    <link rel="stylesheet" href="../public/css/style.css">
     
-    <link rel="shortcut icon" href="./public/imagenes/favicon.png"/>
+    <link rel="shortcut icon" href="../public/imagenes/favicon.png"/>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
 
 </head>
 <body>
-  <nav class="navbar navbar-expand-lg navbar-light " style="background-color: #a6d0fc!important;">
-      <a class="navbar-brand" href="#">
-        <img src="./public/imagenes/logoJD.png" alt="">
-      </a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link" href="#">JD Store</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#" >JD Rest</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link amenu" href="#" >JD Invoice</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#" >JD Ecomm</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#" >JD TAE</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#" >JD CEO</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#" >Tienda</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#" >Iniciar Sesion</a>
-          </li>
-          <li class="nav-item">
-            <a href="#" class="nav-link" >
-              <i class="fas fa-shopping-cart"></i> 0
-            </a>
-          </li>
-      </div>
-  </nav>
-  
-  
   <!--CONTENT VIDEO-->
   <div class="col-12 imgindex">
     <div class="row">
       <div class="col-12 col-md-8 ">
         <figure>
           <a href="#" class="video-btn" data-toggle="modal" data-src="https://www.youtube.com/embed/LXg1Y7qGsiY">
-            <img class="videoind" src="./public/imagenes/playv.png" width="300px"/>
+            <img class="videoind" src="../public/imagenes/playv.png" width="300px"/>
           </a>
           </figure>
       </div>
@@ -92,7 +53,7 @@
             <p class="card-text mb-auto">¡Tú Punto de Venta! Administra tus Ventas, inventarios y mucho más de manera rápida, fácil y segura.</p>
           </div>
           <div class="col-auto d-none d-lg-block">
-            <Img src="./public/imagenes/storei.jpg"></Img>
+            <Img src="../public/imagenes/storei.jpg"></Img>
           </div>
         </div>
       </div>
@@ -103,7 +64,7 @@
             <p class="card-text mb-auto">¡El mejor sistema para restaurantes, bares y cafeterías! Controla las diferentes zonas como: cajas, cocina, comandas y más.</p>
           </div>
           <div class="col-auto d-none d-lg-block">
-            <Img src="./public/imagenes/resti.jpg"></Img>
+            <Img src="../public/imagenes/resti.jpg"></Img>
           </div>
         </div>
       </div>
@@ -114,7 +75,7 @@
             <p class="card-text mb-auto">¡Tú facturador electrónico! ¿Ya migraste a la versión 3.3? Comienza a facturar con nuestros paquetes de folios digitales.</p>
           </div>
           <div class="col-auto d-none d-lg-block">
-            <Img src="./public/imagenes/ceoi.jpg"></Img>
+            <Img src="../public/imagenes/ceoi.jpg"></Img>
           </div>
         </div>
       </div>
