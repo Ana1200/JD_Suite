@@ -105,9 +105,9 @@ require 'header.php';
 <!--CARRUSEL DE OPCIONES-->
 <div id="carouselExampleAutoplaying" class="carousel slide h-25" data-bs-ride="carousel">
   <div class="carousel-inner">
-    <div class="carousel-item active" height="30%">
+    <div class="carousel-item active"width="10%" height="30%">
         <center>
-        <img src="../public/imagenes/playv.png" class="d-block "  height="10%" alt="...">
+        <img src="../public/imagenes/store2.gif" class="d-block "  height="10%" alt="...">
         <h5>Funciona para cualquier giro </h5>
         <p>
         Es aplicable para una gran gama de giros, controla tus inventarios, ventas, compras y gestiona tus clientes y te apoya
@@ -119,12 +119,12 @@ require 'header.php';
     </div>
     <div class="carousel-item"width="50%" height="30%">
     <center>
-        <img src="../public/imagenes/rstore.png" class="d-block "  height="20%" alt="...">
+        <img src="../public/imagenes/rstore.png" class="d-block "  height="15%" alt="...">
         <h5>Requisitos del sistema</h5>
         
     </center>
     </div>
-    <div class="carousel-item"width="50%" height="30%">
+    <div class="carousel-item"width="40%" height="30%">
     <center>
         <img src="../public/imagenes/cloud.png" class="d-block " height="20%" alt="...">
         <h5>JD Clou</h5>
@@ -144,7 +144,116 @@ require 'header.php';
 
 
 <!--TIPOS DE LICENCIA-->
-<div class="col-12"></div>
+<div class="col-12 bgjd02">
+   <div class="row">
+      <div class="col-md-12 lic">
+        <center>
+        <h1>TIPOS DE LICENCIAS</h1>
+        <p>JD Store se adapta al tamaño de tu negocio y de tu crecimiento, es por ello que desarrollamos varios tipos de licencia. Con ello el único límite son tus ganas de crecer.</p>
+        </center>
+      </div>
+        
+        <div class="col-md-2">
+            <center>
+            <h4>Store Servidor</h4>
+            <p>La licencia ideal para tu negocio. JD Store tipo Servidor contiene todos los módulos de tu sistema de Punto de Venta, podrás llevar el control y registro total de tu negocio, de los artículos, clientes, proveedores y demás, al mismo tiempo que tendrás a tu disposición los Reportes adecuados para tomar las decisiones que harán crecer tu negocio.</p>
+            </center>
+            
+        </div>
+        <div class="col-md-2">
+        <center>
+            <h4>Store Terminal</h4>
+            <p>Esta licencia es el complemento ideal para la tipo Servidor, ya que nos apoya a crecer nuestro negocio. Si cobrar en una caja ya no es suficiente es hora de que evoluciones y hagas crecer tu punto de venta.
+
+                Al adquirir esta licencia podrás conectar otro equipo a tu JD Store, podrás tener dos cajeros operando de manera simultánea y controlar en su totalidad el sistema.
+
+                *Requieres una licencia tipo Servidor para adquirir esta licencia</p>
+        </center>
+        </div>
+        <div class="col-md-2">
+        <center>
+            <h4>Servidor Farmacia</h4>
+            <p>Si tu giro es una farmacia entonces esta es la solución, JD Store tiene un modulo de farmacia que te permitirá gestionar tu venta de antibióticos.
+
+            Si tienes un consultorio para potenciar tus ventas, JD Store tiene su modulo para registrar expedientes electrónicos de tus pacientes y emitir recetas desde el mismo sistema.
+
+            Rota tu inventario con ayuda de tu doctor y registra los servicios prestados para que cumplas con los requerimientos de la secretaría de salud solicita.</p>
+        </center>
+        </div>
+        <div class="col-md-2">
+        <center>
+            <h4>Servidor Citas</h4>
+            <p>Tu propio calendario de ventas en el sistema es posible.
+
+                Gestiona tus citas y clientes desde JD Store y dale seguimiento a una venta desde que se aparta y hasta que se vende.
+
+                Da de alta cabinas de atención y responsables de atender, para que el sistema asigne actividades a tu personal.
+
+                Gestiona anticipos de servicios y liquidaciones al realizarlos, esto te ayudará a asegurar la prestación del servicio.</p>
+        </center>
+        </div>
+        <div class="col-md-2">
+        <center>
+            <h4>Servidor Rutas de Reparto</h4>
+            <p>Si en tu empresa repartes a domicilio o generas rutas de entrega JD te ayuda a generar tus repartos de manera segura y sencilla.
+
+                Maneja los estados de cuenta por cada cliente y administra cada productos que vendes sencillamente.</p>
+        </center>
+        </div>
+   </div>
+</div>
+
+
+<!--PARTE DE PREGUNTAS-->
+<div class="bgjd02 col-12">
+    <div class="row">
+      <div class="col-12 col-md-6">
+        <h2 class="titjd2 tac">Tutoriales</h2>
+        <p class="dsuite3">
+          Generamos una serie de videos para facilitarte el uso de tu Punto de Venta “JD Store”. Conoce lo sencillo y rápido que es.
+        </p>
+        <a href="https://www.youtube.com/watch?v=q1NM5De1JIM&list=PLCHufcZLZMIwcksYnpPP5zEN2TswT9JKz" target="_blank"><button class="imgservicio paddbot btnmasinfo">Videotutoriales</button></a>
+      </div>
+      <div class="col-12 col-md-6 blb">
+        <h2 class="titjd2 tac">FAQ's</h2>
+        <div class="dsuitefaq">
+        <!-- FAQs Acordein-->
+                  <div class="panel-group" id="accordion">
+              <div class="panel panel-primary">
+                  <div class="panel-heading">
+                      <h4 class="panel-title">
+                      <a data-toggle="collapse" data-parent="#accordion" href="#">
+                      ¿Cómo entregarán mi paquete?
+                      </a>
+                      </h4>
+                  </div>
+                  <div id="faq1" class="panel-collapse collapse">
+                      <div class="panel-body">
+                          Recibirás un correo por parte de nuestros especialistas para concretar una cita, de este modo ellos se encargarán de instalar tu sistema JD y configurarlo para tu primero uso.<br />
+                            Es importante que te mantengas atento a sus indicaciones.                      </div>
+                  </div>
+              </div>
+              <!-- /.panel -->
+          </div>
+                    <div class="panel-group" id="accordion">
+              <div class="panel panel-primary">
+                  <div class="panel-heading">
+                      <h4 class="panel-title">
+                      <a data-toggle="collapse" data-parent="#accordion" href="#">
+                      ¿Puedo pagar con tarjeta de crédito a meses sin intereses?
+                      </a>
+                      </h4>
+                  </div>
+                  <div id="faq2" class="panel-collapse collapse">
+                      <div class="panel-body">
+                          Claro que si, en tu carrito de compra elije la opción Pago con tarjeta de crédito y con la seguridad de <b>Mercado Pago</b> podrás procesar tu pago diferido                      </div>
+                  </div>
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 
   <!--PARTE DE WHATS-->
   <div class="msgwh">

@@ -1,4 +1,6 @@
-
+.navbar{
+    height: 100%;
+}
 
 .navbar-brand{
     width: 50%;
@@ -173,6 +175,25 @@
     background-color: #a6d0fc;
     border-color: #a6d0fc;
 }
-.yout{
-    height: 100%;
+.lip{
+    padding: 2%;
+}
+.lic{
+    background-color: #d5f1f1;
+    text-align: center;
+}
+.bgjd02 {
+    background: #FFFFFF;
+    padding: 5% 7% 2% 7%;
+    min-height: 50vh;
+}
+.blb {
+    border-left: solid 1px #000000;
+}
+.tac {
+    text-align: center;
+}
+.titjd2 {
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
