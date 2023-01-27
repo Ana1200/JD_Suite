@@ -184,11 +184,16 @@
     box-shadow: 10px 10px rgb(207, 209, 209);
     
 }
+.estrellas{
+  display:flex;
+}
 div.lic {
   border-style: solid;
   border-color:#afcff1 #a4a5a5 #8cbaeb #a4a5a5;
 }
-
+h3.precio{
+  color:#722466;
+}
 .tipos{
   border-top-width: 10px;
   border-right-width: 1em;
@@ -222,7 +227,7 @@ div.lic {
 .blo{
   margin: 2% 0%;
 }
-input.inpse{
+div.parse,input.inpse{
   width: 90%;
 }
 .pages {
@@ -235,4 +240,63 @@ ul.pagination {
 }
 .sep{
   border-top: solid 1px #000000;
+}
+.centrado{
+  display: flex;
+  justify-content: center;
+}
+.logo {
+  float:left;
+  text-align: right;
+}
+.logo2 {
+  float:right;
+  text-align:left;
+  font-size:38px;
+  color:#4385db;
+}
+.estrellasdis{
+  color:#ffff00;
+  font-size:32px;
+}
+.compra{
+  color:#055e81;
+  font-size:32px;
+}
+
+#mainNavigation a {
+  font-family: 'Cabin', sans-serif;
+  font-size:20px;
+  text-transform:uppercase;
+  letter-spacing:1px;
+  text-shadow:1px 1px rgba(0,0,0,0.4)
+}
+
+a.dropdown-item:hover {
+  color:#03727d !important
+}
+.nav-item a{
+  color:#000000;
+}
+.nav-item a:hover {
+  color:#fff
+}
+.nav-item{
+  min-width:12vw;
+}
+#mainNavigation {
+  top:0;
+  left:0;
+  width:100%;
+  height: 80%;
+  padding-bottom:0;
+background: -moz-linear-gradient(top,  #29A8B0 0%, rgba(0,0,0,0) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #29A8B0 0%,rgba(0,0,0,0) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #29A8B0 0%,rgba(0,0,0,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', endColorstr='#00000000',GradientType=0 ); /* IE6-9 */
+}
+#navbarNavDropdown.collapsing .navbar-nav,
+#navbarNavDropdown .navbar-nav{
+  padding:20px;
+  border: 50px;
 }

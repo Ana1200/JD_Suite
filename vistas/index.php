@@ -1,5 +1,5 @@
 <?php
-require 'header.php';
+require 'nav.php';
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -17,46 +17,6 @@ require 'header.php';
 
 </head>
 <body>
-  <nav class="navbar navbar-expand-lg navbar-light " style="background-color: #a6d0fc!important;">
-    <a class="navbar-brand" href="#">
-      <img src="../public/imagenes/logoJD.png" alt="">
-    </a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav">
-        <li class="nav-item">
-          <a class="nav-link" href="./JD_Store.php">JD Store</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#" >JD Rest</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link amenu" href="#" >JD Invoice</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#" >JD Ecomm</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#" >JD TAE</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#" >JD CEO</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#" >Tienda</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#" >Iniciar Sesion</a>
-        </li>
-        <li class="nav-item">
-          <a href="#" class="nav-link" >
-            <i class="fas fa-shopping-cart"></i> 0
-          </a>
-        </li>
-    </div>
-</nav>
 
 
   <!--CONTENT VIDEO-->

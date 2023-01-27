@@ -42,7 +42,7 @@
             <a class="nav-link" href="#" >JD CEO</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#" >Tienda</a>
+            <a class="nav-link" href="./shop.php" >Tienda</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#" >Iniciar Sesion</a>

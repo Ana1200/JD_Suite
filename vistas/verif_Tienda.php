@@ -63,10 +63,10 @@ require 'nav_Tienda.php';
               </div>
 
               <div class="box-footer row">
-                <div class="col-12 col-md-6 tal desk">
+                <div class="col-12 col-md-8 tal desk">
                   <a href="category" class="btn btn-default"><i class="fas fa-chevron-left"></i> Seguir Comprando</a>
                 </div>
-                <div class="col-12 col-md-6 tar">
+                <div class="col-12 col-md-4 tar">
                   <button type="submit" id="actcart" class="btn btn-default actcart"><i class="fas fa-sync"></i> Actualizar Carrito</button>
                 </div>
               </div>
@@ -74,37 +74,28 @@ require 'nav_Tienda.php';
           </div>        
         </div>
         <div class="col-md-4">
-          <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
-            <strong class="d-inline-block mb-2 text-primary">RESUMEN</strong>
+          <div class=" lip row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+            <h1>RESUMEN</h1>
               <div class="sep">
               </div>
-                <div class="col-mb-4 p-4 d-flex flex-column position-static">
-                  <h6 class="mb-0">Productos</h6>
-                  <p class="card-text mb-auto">Envio</p>
-                </div>
-                <div class="col-mb-4 p-4 d-flex flex-column position-static">
-                  <h6 class="mb-0">Costo</h6>
-                  <p class="card-text mb-auto">Envio</p>
-                </div>
+                <div class="flex justify-between mb-3 text-sm">
+                  <span >Subtotal</span>
+                  <span >$789.00</span>
+              </div>
                 <div class="sep">
                 </div>
-                <div class="col-mb-4 p-4 d-flex flex-column position-static">
-                  <h6>Total</h6>
-                  <h6>(Incluye IVA)</h6>
-                </div>
-                <div class="col-mb-4 p-4 d-flex flex-column position-static">
-                  <h6 class="mb-0">Productos</h6>
-                  <p class="card-text mb-auto">$0.00</p>
-                </div>
-                  <center>
-                    <button  class="btnmasinfo paddbot2" ><i class="fas fa-chevron-right"></i>Comprar</button>
-                  </center>
-            </div>
-            <center>
-            <button class="paddbot2">
-              <i class="fas fa-sync">Agregar cupón de descuento</i>
-            </button>
-            </center>
+                <div class="flex justify-between font-bold pt-4 mt-5 mb-5 border-t border-gray-500">
+                  <span">Total a pagar</span>
+                  <span>$1,489.00</span>
+              </div>
+              <button data-testid="button-component" class=" centrado paddbot2  w-100 h-12 border font-bold transition py-3 rounded" ><i class="fas fa-chevron-right"></i>Comprar</button>
+                  
+                  </div>
+                  <div class="centrado">
+                  <button class="paddbot2">
+                    <i class="fa fa-plus-circle"> Agregar cupón de descuento </i>
+                  </button>
+                  </div>
           </div>
         </div>
       </div>

@@ -67,8 +67,8 @@ require 'header.php';
                         Producto: <label style="color: #4C7FB6">JD STORE</label>
                         <input type="hidden" value="1" name="producto" id="producto" class="entradatexto">
                       </div>
-                      <div class="col-12 ">
-                        <center><button style="background-color: #a6d0fc;border-color: #a6d0fc;" class=" btnmasinfo" id="enviarc" type="submit" >Enviar</button></center>
+                      <div class="col-12 centrado">
+                        <button style="background-color: #a6d0fc;border-color: #a6d0fc;" class=" btnmasinfo" id="enviarc" type="submit" >Enviar</button>
                       </div>
                     </div>
                   </form>
