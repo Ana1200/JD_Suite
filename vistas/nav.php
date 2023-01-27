@@ -25,10 +25,12 @@
         </div>
     </nav>
     <div class="navbar-expand-md">
-        <div class="navbar-dark my-2">
-        <button class="navbar-toggler w-85" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span> <span class="align-middle">Menu</span>
-        </button>
+        <div class="menu">
+            <div class="navbar-dark my-2">
+            <button class="navbar-toggler w-100 "style="color:#03727d;font-size:32px;" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="fa fa-bars" style="font-size:24px color:#03727d;"></i><span class="align-middle"> Menú</span>
+            </button>
+            </div>
         </div>
         <div class="text-center mt-3 collapse navbar-collapse" id="navbarNavDropdown">
         <ul class="navbar-nav mx-auto ">
