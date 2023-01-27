@@ -1,5 +1,5 @@
 <?php
-require 'nav_Tienda.php';
+require 'nav.php';
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -10,7 +10,6 @@ require 'nav_Tienda.php';
     <title>JD_Suite</title>
 
     <link rel="stylesheet" href="../public/css/style.css">
-    <link rel="stylesheet" href="../public/boostrap/js/JD_tae.js">
     
     <link rel="shortcut icon" href="../public/imagenes/favicon.png"/>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
@@ -18,37 +17,44 @@ require 'nav_Tienda.php';
 
 </head>
 <body>
-<div class="memorama">
+    
 <div class="col-12">
-      <div class="row mb-2">
+        <div class="row mb-2">
         <div class="col-md-6">
-            <div class="lip row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
-                <div class="girar">
-                    <span>
-                        <h3>¿Que es el JD TAE?</h3>
-                        <div class="im">
-                        <img src="../public/imagenes/tae1.png" width="80%" height="80%"alt="">
+            <h1>¿Que es el TAE?</h1>
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                        <img src="../public/imagenes/tae1.png" alt="tae2" style="width:300px;height:300px;">
                         </div>
-                    </span>
-                </div>
-            </div>
-        </div>
-        <div class="col-md-6">
-            <div class="girar lip row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
-                <div class="girar">
-                    <span>
-                    <h3>Beneficios</h3>
-                        <div class="im">
-                            <img src="../public/imagenes/tae2.png" width="80%" height="80%" alt="">
+                        <div class="flip-card-back">
+                        <h1>¿Que es el TAE?</h1>
+                        <p>JD TAE es un sistema multiplataforma, no importa donde estés o que tecnología ocupes, podrás realizar recargas, pago de servicios y venta de tarjetas de regalo.
+                            JD TAE quiere que crezcas y compitas con estas tiendas, comienza atrayendo gente a tu negocio ofertando pago de servicios, y lo mejor, con una comisión igual o menor que dichas tiendas.</p>
                         </div>
-                    </span>
-                </div>
+                    </div>
+                    </div>
             </div>
-        </div>
-     </div>
- </div>
+            <div class="col-md-6">
+            <h1>Beneficios</h1>
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                        <img src="../public/imagenes/tae2.png" alt="tae2" style="width:300px;height:300px;">
+                        </div>
+                        <div class="flip-card-back">
+                        <h1>Beneficios</h1>
+                        <p>¡Obtén una comisión por cada recarga, haciendo dinero sin esforzarte!
+                        Sabemos que las recargas de saldo en prepago es parte de nuestra vida cotidiana, por lo que JD TAE es una herramienta completamente portátil, lo podrás usar en tu PC, Móvil o Tablet.
+                        El sistema de recargas electrónicas, obteniendo una comisión del 6% por cada recarga efectuada.</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+    </div></div>
+    
 </div>
-
+<br>
 <!--TUTORIALES/PREGUNTAS-->
 <div class="tut">
 <div class="col-12">
