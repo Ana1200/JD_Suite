@@ -10,6 +10,7 @@ require 'nav.php';
     <title>JD_Suite</title>
 
     <link rel="stylesheet" href="../public/css/style.css">
+    <link rel="stylesheet" href="../public/css/flip.css">
     
     <link rel="shortcut icon" href="../public/imagenes/favicon.png"/>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
@@ -17,60 +18,96 @@ require 'nav.php';
 
 </head>
 <body>
-    
-<div class="col-12">
-        <div class="row mb-2">
+<div class="lip">
+<div class="girar">
+<center>
+<div class="col-12 cards-grid w-100%">
+      <div class="row mb-2">
+        <div class="col-md-6 ">
+        <div class="flip-card">
+              <h3>¿Que es el TAE?</h3>
+                <div class="flip-card-inner">
+                    <div class="flip-card-front" 
+                      style="background-image: url('../public/imagenes/tae1.png');">
+                    </div>
+                    <div class="flip-card-back">
+                    <p>
+                    JD TAE es un sistema multiplataforma, no importa donde estés o que tecnología ocupes, podrás realizar recargas, pago de servicios y venta de tarjetas de regalo.
+                    JD TAE quiere que crezcas y compitas con estas tiendas, comienza atrayendo gente a tu negocio ofertando pago de servicios, y lo mejor, con una comisión igual o menor que dichas tiendas.
+                    </p>
+                    </div>
+                </div>
+            </div>    
+
+        </div>
         <div class="col-md-6">
-            <h1>¿Que es el TAE?</h1>
-                <div class="flip-card">
-                    <div class="flip-card-inner">
-                        <div class="flip-card-front">
-                        <img src="../public/imagenes/tae1.png" alt="tae2" style="width:300px;height:300px;">
-                        </div>
-                        <div class="flip-card-back">
-                        <h1>¿Que es el TAE?</h1>
-                        <p>JD TAE es un sistema multiplataforma, no importa donde estés o que tecnología ocupes, podrás realizar recargas, pago de servicios y venta de tarjetas de regalo.
-                            JD TAE quiere que crezcas y compitas con estas tiendas, comienza atrayendo gente a tu negocio ofertando pago de servicios, y lo mejor, con una comisión igual o menor que dichas tiendas.</p>
-                        </div>
+        <div class="flip-card">
+        <h3>Beneficios</h3>
+                <div class="flip-card-inner">
+                    <div class="flip-card-front" 
+                      style="background-image: url('../public/imagenes/tae2.png');">
                     </div>
+                    <div class="flip-card-back">
+                    <p>
+                    ¡Obtén una comisión por cada recarga, haciendo dinero sin esforzarte!
+                            Sabemos que las recargas de saldo en prepago es parte de nuestra vida cotidiana, por lo que JD TAE es una herramienta completamente portátil, lo podrás usar en tu PC, Móvil o Tablet.
+                            El sistema de recargas electrónicas, obteniendo una comisión del 6% por cada recarga efectuada.
+                    </p>
                     </div>
+                </div>
             </div>
-            <div class="col-md-6">
-            <h1>Beneficios</h1>
-                <div class="flip-card">
-                    <div class="flip-card-inner">
-                        <div class="flip-card-front">
-                        <img src="../public/imagenes/tae2.png" alt="tae2" style="width:300px;height:300px;">
-                        </div>
-                        <div class="flip-card-back">
-                        <h1>Beneficios</h1>
-                        <p>¡Obtén una comisión por cada recarga, haciendo dinero sin esforzarte!
-                        Sabemos que las recargas de saldo en prepago es parte de nuestra vida cotidiana, por lo que JD TAE es una herramienta completamente portátil, lo podrás usar en tu PC, Móvil o Tablet.
-                        El sistema de recargas electrónicas, obteniendo una comisión del 6% por cada recarga efectuada.</p>
-                        </div>
-                    </div>
-                    </div>
-            </div>
-    </div></div>
-    
+
+        </div>
+
+        
+
+     </div>
+</center>
+ </div>
 </div>
-<br>
+</div>
 <!--TUTORIALES/PREGUNTAS-->
-<div class="tut">
+<div class="lip">
 <div class="col-12">
       <div class="row mb-2">
         <div class="col-md-6">
-            <div class="lip row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
-                <span>Totoriales</span>
-                <p>Generamos una serie de videos para facilitarte el uso de “JD TAE”. Conoce lo sencillo y rápido que es.</p>
-                <video src="https://www.youtube.com/watch?v=-3IsVznqozU&list=PLCHufcZLZMIwPE_Khw2TRj9ckCmcr1YMb" autoplay controls muted>
-                </video>
-                <button>Ver más videos</button>
+            <div class="lip row mb-2">
+                <div class="col-mb-6">
+                  <div class="row mb-2">
+                    <h3>Tutoriales</h3>
+                    <p>Generamos una serie de videos para facilitarte el uso de “JD TAE”. 
+                      Conoce lo sencillo y rápido que es.</p>
+                    <div class="text-md-center aos-init aos-animate" data-aos="flip-down">
+                      <iframe  height="100%" src="https://www.youtube.com/embed/-3IsVznqozU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    </div>
+                  
+                    <div class="col-mb-2">
+                      <div class="lip">
+                        <a href="https://www.youtube.com/watch?v=-3IsVznqozU&t=2s">
+                        <button class=" paddbot">Ver más videos</button>
+                        </a>
+                      </div>
+                    </div>  
+                  </div>
+                </div>
             </div>
         </div>
         <div class="col-md-6">
-            <div class="girar lip row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
-                
+            <div class="lip">
+                <section>
+                  <div class="container">
+                    <div class="estrellas">
+                      <i class="fa fa-info p-2" style="font-size:24px"></i>
+                      <h3>  --Preguntas frecuentes</h3>
+                    </div>
+                    <div class="row">
+                      <div class="col-mb-6 tipos2">
+                      <i class="fa fa-question-circle p-2" style="font-size:20px"></i>
+                        <a href=""> ¿Como implemento TAE?</a>
+                      </div>
+                    </div>
+                  </div>
+                </section>
             </div>
         </div>
      </div>

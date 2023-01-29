@@ -1,33 +1,56 @@
-<div class="contacto-inicio col-12">
-    <div class="sprod">
-              <div class="col-6 col-md-2">
-          <div class="product">
-            <div class="flip-container">
-              <div class="flipper">
-                <div class="front">
-                  <a href="#">
-                  <img src="../public/imagenes/tae1.png" alt="" class="img-responsive">
-                  </a>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=<!--TUTORIALES/PREGUNTAS-->, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="../public/css/flip.css">
+</head>
+<body>
+<div class="girar">
+<div class="col-12 cards-grid">
+      <div class="row mb-2">
+        <div class="col-md-6">
+        <div class="flip-card">
+              <h3>¿Que es el TAE?</h3>
+                <div class="flip-card-inner">
+                    <div class="flip-card-front" 
+                      style="background-image: url('../public/imagenes/tae1.png');">
+                    </div>
+                    <div class="flip-card-back">
+                    <p>
+                    ¿Que es el TAE?
+                    JD TAE es un sistema multiplataforma, no importa donde estés o que tecnología ocupes, podrás realizar recargas, pago de servicios y venta de tarjetas de regalo.
+                    JD TAE quiere que crezcas y compitas con estas tiendas, comienza atrayendo gente a tu negocio ofertando pago de servicios, y lo mejor, con una comisión igual o menor que dichas tiendas.
+                    </p>
+                    </div>
                 </div>
-                <div class="back">
-                  <a href="#">
-                  <img src="../public/imagenes/tae2.png" alt="" class="img-responsive">
-                  </a>
-                </div>
-              </div>
-            </div>
-            <a href="#" class="invisible">
-            <img src="../public/imagenes/tae1.png" alt="" class="img-responsive">
-            </a>
-                        <div class="text">
-              <h3><a href="#">TAE</a></h3>
-              <p class="price">$  5,252.00 </p>              <p class="buttons">
-                              <a id="cartCB00000001" onclick="addcart('CB00000001');" class="btn btn-primary"><i class="fa fa-shopping-cart"></i> Añadir</a>
-                            <input type="hidden" id="precioCB00000001" value="5252.00"/>
-              <input type="hidden" id="descuentoCB00000001" value="0"/>
-              </p>
-            </div>
-          </div>
+            </div>    
+
         </div>
-          </div>
-  </div>
+        <div class="col-md-6">
+        <div class="flip-card">
+        <h3>Beneficios</h3>
+                <div class="flip-card-inner">
+                    <div class="flip-card-front" 
+                      style="background-image: url('../public/imagenes/tae2.png');">
+                    </div>
+                    <div class="flip-card-back">
+                    <p>
+                    Beneficios
+                    ¡Obtén una comisión por cada recarga, haciendo dinero sin esforzarte!
+                            Sabemos que las recargas de saldo en prepago es parte de nuestra vida cotidiana, por lo que JD TAE es una herramienta completamente portátil, lo podrás usar en tu PC, Móvil o Tablet.
+                            El sistema de recargas electrónicas, obteniendo una comisión del 6% por cada recarga efectuada.
+                    </p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+     </div>
+ </div>
+</div>
+</body>
+</html>

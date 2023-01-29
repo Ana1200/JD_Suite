@@ -1,5 +1,5 @@
 <?php
-require 'nav_Tienda.php';
+require 'nav_shop.php';
 ?>
 <!DOCTYPE html>
 <html lang="en">

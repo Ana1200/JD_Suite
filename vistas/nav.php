@@ -25,17 +25,15 @@
         </div>
     </nav>
     <div class="navbar-expand-md">
-        <div class="menu">
             <div class="navbar-dark my-2">
             <button class="navbar-toggler w-100 "style="color:#03727d;font-size:32px;" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <i class="fa fa-bars" style="font-size:24px color:#03727d;"></i><span class="align-middle"> Menú</span>
             </button>
             </div>
-        </div>
         <div class="text-center mt-3 collapse navbar-collapse" id="navbarNavDropdown">
         <ul class="navbar-nav mx-auto ">
             <li class="nav-item">
-            <a class="nav-link" aria-current="page" href="#">JD Store</a>
+            <a class="nav-link" aria-current="page" href="./JD_Store.php">JD Store</a>
             </li>
             <li class="nav-item">
             <a class="nav-link" href="#">JD Rest</a>
@@ -47,13 +45,13 @@
             <a class="nav-link" href="#">JD Ecomm</a>
             </li>
              <li class="nav-item">
-            <a class="nav-link" href="#">JD TAE</a>
+            <a class="nav-link" href="./JD_tae.php">JD TAE</a>
             </li>
              <li class="nav-item">
             <a class="nav-link" href="#">JD CEO</a>
             </li>
              <li class="nav-item">
-            <a class="nav-link" href="#">Tienda</a>
+            <a class="nav-link" href="./shop.php">Tienda</a>
             </li>
              <li class="nav-item">
             <a class="nav-link" href="#">Iniciar Sesion</a>

@@ -189,6 +189,16 @@ h3.precio{
   box-shadow: 10px 10px lightblue;
   margin: 4% 1.6%;
 }
+.tipos2{
+  border-top-width: 10px;
+  border-right-width: 1em;
+  background-color: #b3b6b6;
+  text-align: center;
+  border-radius: 5px 20px;
+  box-shadow: 10px 10px rgb(234, 240, 241);
+  margin: 4% 1.6%;
+  padding: 2%;
+}
 .bgjd02 {
     background: #FFFFFF;
     padding: 5% 3% 2% 2%;
@@ -241,6 +251,10 @@ ul.pagination {
   font-size:38px;
   color:#4385db;
 }
+.right{
+    float:right;
+    text-align:left;
+}
 .estrellasdis{
   color:#ffff00;
   font-size:32px;
@@ -259,7 +273,13 @@ ul.pagination {
   letter-spacing:2px;
   text-shadow:1px 1px rgba(0,0,0,0.4)
 }
-
+#nav a {
+  font-family: 'Cabin', sans-serif;
+  font-size:12px;
+  text-transform:uppercase;
+  letter-spacing:2px;
+  text-shadow:1px 1px rgba(0,0,0,0.4)
+}
 a.dropdown-item:hover {
   color:#03727d !important
 }
@@ -272,6 +292,7 @@ a.dropdown-item:hover {
 .nav-item{
   min-width:12vw;
 }
+
 #mainNavigation {
   top:0;
   left:0;
@@ -284,54 +305,11 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', e
 }
 #navbarNavDropdown.collapsing .navbar-nav,
 #navbarNavDropdown .navbar-nav{
-  padding:20px;
+  padding:0;
 }
 .menu{
   float:right;
   text-align:left;
 }
 
-.flip-card {
-  background-color: #1F8187;
-  width: 100%;
-  height: auto;
-  border: 1px solid #f1f1f1;
-  perspective: 1000px; /* Remove this if you don't want the 3D effect */
-}
 
-/* This container is needed to position the front and back side */
-.flip-card-inner {
-  position: relative;
-  width: 100%;
-  height: 100%;
-  text-align: center;
-  transition: transform 0.8s;
-  transform-style: preserve-3d;
-}
-
-/* Do an horizontal flip when you move the mouse over the flip box container */
-.flip-card:hover .flip-card-inner {
-  transform: rotateY(180deg);
-}
-
-/* Position the front and back side */
-.flip-card-front, .flip-card-back {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  -webkit-backface-visibility: hidden; /* Safari */
-  backface-visibility: hidden;
-}
-
-/* Style the front side (fallback if image is missing) */
-.flip-card-front {
-  background-color: #bbb;
-  color: black;
-}
-
-/* Style the back side */
-.flip-card-back {
-  background-color: #0d0d0e;
-  color: #0e0f0f;
-  transform: rotateY(180deg);
-}
