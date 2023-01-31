@@ -24,19 +24,22 @@ require 'nav_shop.php';
       <div class="row row-cols-1 row-cols-sm-2 row-cols-md-5 g-3">
         <div class="col">
           <div class="card shadow-sm">
-          <img src="../public/imagenes/productos/CB000000063.jpg" width="100%" height="225"role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#55595c"/></svg>
-            <div class="card-body">
+          <a href="./descrpro.php">
+          <img src="../public/imagenes/productos/CB000000063.jpg" width="100%" height="225"role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#55595c"/></img>
+          <div class="card-body">
             <center>
             <h6>JD STORE LICENCIA TIPO SERVIDOR</h6>
                 <p>$  3,999.00 </p>
                 <a id="cartCB00000014" onclick="addcart('CB00000014');" class="btn" style="background-color: #a6d0fc;border-color: #a6d0fc;"><i class="fa fa-shopping-cart"></i>Añadir</a>
             </center>
             </div>
+          </a>
+            
            </div>
         </div>
         <div class="col">
           <div class="card shadow-sm">
-          <img src="../public/imagenes/productos/CB000000063.jpg" width="100%" height="225"role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#55595c"/></svg>
+          <img src="../public/imagenes/productos/CB000000063.jpg" width="100%" height="225"role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#55595c"/></img>
             <div class="card-body">
                 <center>
                 <h6>JD STORE LICENCIA TIPO TERMINAL</h6>
@@ -48,7 +51,7 @@ require 'nav_shop.php';
         </div>
         <div class="col">
           <div class="card shadow-sm">
-          <img src="../public/imagenes/productos/CB000000063.jpg" width="100%" height="225"role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#55595c"/></svg>
+          <img src="../public/imagenes/productos/CB000000063.jpg" width="100%" height="225"role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#55595c"/></img>
             <div class="card-body">
             <h6>JD REST LICENCIA TIPO SERVIDOR</h6>
                 <p>$  3,999.00 </p>
@@ -58,7 +61,7 @@ require 'nav_shop.php';
         </div>
         <div class="col">
           <div class="card shadow-sm">
-          <img src="../public/imagenes/productos/CB000000063.jpg" width="100%" height="225"role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#55595c"/></svg>
+          <img src="../public/imagenes/productos/CB000000063.jpg" width="100%" height="225"role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#55595c"/></img>
             <div class="card-body">
             <h6>JD REST LICENCIA TIPO TERMINAL</h6>
                 <p>$  3,999.00 </p>
@@ -68,7 +71,7 @@ require 'nav_shop.php';
         </div>
         <div class="col">
           <div class="card shadow-sm">
-          <img src="../public/imagenes/productos/CB000000063.jpg" width="100%" height="225"role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#55595c"/></svg>
+          <img src="../public/imagenes/productos/CB000000063.jpg" width="100%" height="225"role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#55595c"/></img>
             <div class="card-body">
             <h6>KIT COMPLEJO JD STORE</h6>
                 <p>$  3,999.00 </p>
@@ -77,7 +80,7 @@ require 'nav_shop.php';
         </div>
         <div class="col">
           <div class="card shadow-sm">
-          <img src="../public/imagenes/productos/CB0000001513.jpg" width="100%" height="225"role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#55595c"/></svg>
+          <img src="../public/imagenes/productos/CB0000001513.jpg" width="100%" height="225"role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#55595c"/></img>
             <div class="card-body">
             <h6>JD STORE LICENCIA TIPO SERVIDOR</h6>
                 <p>$  3,999.00 </p>
@@ -86,7 +89,7 @@ require 'nav_shop.php';
         </div>
         <div class="col">
           <div class="card shadow-sm">
-          <img src="../public/imagenes/productos/CB0000001513.jpg" width="100%" height="225"role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#55595c"/></svg>
+          <img src="../public/imagenes/productos/CB0000001513.jpg" width="100%" height="225"role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#55595c"/></img>
             <div class="card-body">
             <h6>JD STORE LICENCIA TIPO TERMINAL</h6>
                 <p>$  3,999.00 </p>
@@ -95,7 +98,7 @@ require 'nav_shop.php';
         </div>
         <div class="col">
           <div class="card shadow-sm">
-          <img src="../public/imagenes/productos/CB0000001513.jpg" width="100%" height="225"role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#55595c"/></svg>
+          <img src="../public/imagenes/productos/CB0000001513.jpg" width="100%" height="225"role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#55595c"/></img>
             <div class="card-body">
             <h6>JD REST LICENCIA TIPO SERVIDOR</h6>
                 <p>$  3,999.00 </p>
@@ -104,7 +107,7 @@ require 'nav_shop.php';
         </div>
         <div class="col">
           <div class="card shadow-sm">
-          <img src="../public/imagenes/productos/CB0000001513.jpg" width="100%" height="225"role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#55595c"/></svg>
+          <img src="../public/imagenes/productos/CB0000001513.jpg" width="100%" height="225"role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#55595c"/></img>
             <div class="card-body">
             <h6>JD REST LICENCIA TIPO TERMINAL</h6>
                 <p>$  3,999.00 </p>
@@ -113,7 +116,7 @@ require 'nav_shop.php';
         </div>
         <div class="col">
           <div class="card shadow-sm">
-          <img src="../public/imagenes/productos/CB0000001513.jpg" width="100%" height="225"role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#55595c"/></svg>
+          <img src="../public/imagenes/productos/CB0000001513.jpg" width="100%" height="225"role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#55595c"/></img>
             <div class="card-body">
             <h6>KIT COMPLEJO JD STORE</h6>
                 <p>$  3,999.00 </p>

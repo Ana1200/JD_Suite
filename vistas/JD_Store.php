@@ -19,64 +19,76 @@ require 'nav.php';
 <body>
   <!--CONTENT VIDEO-->
   <div class="col-12 imgbgst">
-    <div class="row">
-      <div class="col-12 col-md-8 ">
-        <figure>
-          <a href="#" class="video-btn" data-toggle="modal" data-src="https://www.youtube.com/embed/LXg1Y7qGsiY">
-            <img class="videoind" src="../public/imagenes/playv.png" width="300px"/>
-          </a>
-          </figure>
+    <div class="row mb-2">
+      <div class="col-md-8 ">
+      <img src="../public/imagenes/lstore.png" alt=""/>
       </div>
-      <div class="col-12 col-md-4 padlp">
-        <div class=" form-servicioslp">
-          <div class="col-12 tac">
-            <img class="logolp" src="../public/imagenes/lstore.png" alt="punto de venta"/>
-            <h1 class="text-servicioslp"><i>La navaja suiza de los puntos de venta</i></h1>
-          </div>
-          <div class="col-12">
-            <div class="row">
-              <div class="text-pform col-12 tac">
-                <p>¡Adquierelo ahora mismo!</p>
+      <div class="col-md-4">
+        <div class=" form-servicioslS">
+            <div class="text-servicioslp">
+              <i>La navaja suiza de los puntos de venta</i>
+              <p>¡Adquierelo ahora mismo!</p>
                 <p>Desde $ 3,999.00</p>
-                <a href="#">
-                    <button class="btnmasinfo " style="background-color: #a6d0fc;border-color: #a6d0fc;">Comprar Ahora</button>
-                </a>
-              </div>
-              
-              <div class="">
-                <div class="col-12">
-                  <h1 class="text-serviciostc">Recibe mas información</h1>
+            </div>
+          
+          <center>
+              <!-- Modal -->
+          <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#trackerModal"> 
+              <i class="fa fa-pencil"></i> Formulario
+          </button>
+
+          <div class="modal fade" id="trackerModal" tabindex="-1" aria-labelledby="formulario" aria-hidden="true">
+            <div class="modal-dialog" style="min-width: 75%;">
+              <!--Con el min-width manejo el ancho del modal -->
+              <div class="modal-content">
+
+                <div class="modal-header">
+                  <h2 class="modal-title" id="formulario" ><font color="black" face="Comic Sans MS,arial">Formulario</font></h2>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span>&times;</span>
+                          </button>
                 </div>
-                <div class="col-12">
-                  <form action="savedata" method="post" name="sendcontact" onsubmit="return checksubmit();">
-                    <input type="hidden" name="formulario" value="JDSTORE"/>
-                    <div class="row">
-                      <div class="text-pform col-12">
-                        Nombre
-                        <input class="entradatexto" type="text" name="nombre" id="nombre" onblur="checkf();" required/>
-                      </div>
-                      <div class="text-pform col-12 ">
-                        Correo
-                        <input class="entradatexto" type="email" name="email" id="email" onblur="checkf();" required/>
-                      </div>
-                      <div class="text-pform col-12 ">
-                        Celular
-                        <input class="entradatexto" type="tel" name="telefono" id="telefono" onblur="checkf();" required/>
-                      </div>
-                      <div class="text-pform col-12 ">
-                        Producto: <label style="color: #4C7FB6">JD STORE</label>
-                        <input type="hidden" value="1" name="producto" id="producto" class="entradatexto">
-                      </div>
-                      <div class="col-12 centrado">
-                        <button style="background-color: #a6d0fc;border-color: #a6d0fc;" class=" btnmasinfo" id="enviarc" type="submit" >Enviar</button>
+                    <div class="modal-body">
+                      <div class="container-fluid">
+                        <form>
+                          <div class="row">
+                            <div class="form-group col-md-6">
+                              <label for="nombre" id="fortext">Nombre</label>
+                              <input type="text" class="form-control" id="nombre" placeholder="Nombre" required>
+                            </div>
+                            <div class="form-group col-md-6">
+                              <label for="correo" class="formulario" id="fortext">Correo</label>
+                              <input type="email" class="form-control" id="correo" placeholder="Correo" required>
+                            </div>
+                          </div>
+                          <div class="row">
+                            <div class="form-group col-md-6">
+                              <label for="celular" class="formulario" id="fortext">Celular</label>
+                              <input type="text" class="form-control" id="Celular"placeholder="Celular">
+                            </div>
+                            <div class="form-group col-md-3">
+                              <span>
+                              <h3><font color="black" face="Comic Sans MS,arial">Producto</font></h3>
+                              <h5><font color="blue" face="Comic Sans MS,arial">JD TAE</font></h5>
+                              </span>
+                            </div>
+                          </div>
+                        </form>
                       </div>
                     </div>
-                  </form>
+                    <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                    <button type="button" class="btn btn-primary">Enviar</button>
+                    </div>
+                  </div>
                 </div>
               </div>
+              
+              <a href="./shop.php" class="compras" >
+                    <button class="btn btn-light">Adquirir</button>
+              </a>
+              </center>
               </div>
-          </div>
-        </div>
       </div>
     </div>
   </div>
@@ -119,8 +131,8 @@ require 'nav.php';
         </div>
       </div>
       <div class="col-md-4 blo">
-        <div class="">
-          <img src="../public/imagenes/store2.gif" height="10%" alt="">
+        <div class="w-100">
+          <img src="../public/imagenes/store2.gif" width="100%"alt="">
         </div>
       </div>
       <div class="col-md-6 ">
@@ -140,60 +152,23 @@ require 'nav.php';
 </div>
 </div>
 
-<!--CARRUSEL DE OPCIONES-->
-<div id="carouselExampleAutoplaying" class="carousel slide h-25" data-bs-ride="carousel">
-  <div class="carousel-inner">
-  <div class="carousel-item"width="50%" height="30%">
-    <center>
-        <img src="../public/imagenes/rstore.png" class="d-block "  height="15%" alt="...">
-        <h5>Requisitos del sistema</h5>
-        
-    </center>
-    </div>
-    <div class="carousel-item"width="50%" height="30%">
-    <center>
-        <img src="../public/imagenes/rstore.png" class="d-block "  height="15%" alt="...">
-        <h5>Requisitos del sistema</h5>
-        
-    </center>
-    </div>
-    <div class="carousel-item"width="40%" height="30%">
-    <center>
-        <img src="../public/imagenes/cloud.png" class="d-block " height="20%" alt="...">
-        <h5>JD Clou</h5>
-        
-    </center>
-    </div>
-  </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button>
-</div>
-
+<!--TPOS LIC--> 
 
 <!--TIPOS DE LICENCIA-->
-<div class="col-12 bgjd02">
-   <div class="row">
-      <div class="col-md-12 lic">
         <center>
         <h1>TIPOS DE LICENCIAS</h1>
         <p>JD Store se adapta al tamaño de tu negocio y de tu crecimiento, es por ello que desarrollamos varios tipos de licencia. Con ello el único límite son tus ganas de crecer.</p>
         </center>
       </div>
-        
-        <div class="col-md-2 tipos">
+<div class="col-12 ">
+    <div class="row mb-3">
+        <div class="col-md-2 ">
             <center>
             <h4>Store Servidor</h4>
             <p>La licencia ideal para tu negocio. JD Store tipo Servidor contiene todos los módulos de tu sistema de Punto de Venta, podrás llevar el control y registro total de tu negocio, de los artículos, clientes, proveedores y demás, al mismo tiempo que tendrás a tu disposición los Reportes adecuados para tomar las decisiones que harán crecer tu negocio.</p>
             </center>
-            
         </div>
-        <div class="col-md-2 tipos">
+        <div class="col-md-2 ">
         <center>
             <h4>Store Terminal</h4>
             <p>Esta licencia es el complemento ideal para la tipo Servidor, ya que nos apoya a crecer nuestro negocio. Si cobrar en una caja ya no es suficiente es hora de que evoluciones y hagas crecer tu punto de venta.
@@ -203,7 +178,7 @@ require 'nav.php';
                 *Requieres una licencia tipo Servidor para adquirir esta licencia</p>
         </center>
         </div>
-        <div class="col-md-2 tipos">
+        <div class="col-md-2 ">
         <center>
             <h4>Servidor Farmacia</h4>
             <p>Si tu giro es una farmacia entonces esta es la solución, JD Store tiene un modulo de farmacia que te permitirá gestionar tu venta de antibióticos.
@@ -213,7 +188,7 @@ require 'nav.php';
             Rota tu inventario con ayuda de tu doctor y registra los servicios prestados para que cumplas con los requerimientos de la secretaría de salud solicita.</p>
         </center>
         </div>
-        <div class="col-md-2 tipos">
+        <div class="col-md-2 ">
         <center>
             <h4>Servidor Citas</h4>
             <p>Tu propio calendario de ventas en el sistema es posible.
@@ -225,7 +200,7 @@ require 'nav.php';
                 Gestiona anticipos de servicios y liquidaciones al realizarlos, esto te ayudará a asegurar la prestación del servicio.</p>
         </center>
         </div>
-        <div class="col-md-2 tipos">
+        <div class="col-md-2 ">
         <center>
             <h4>Servidor Rutas de Reparto</h4>
             <p>Si en tu empresa repartes a domicilio o generas rutas de entrega JD te ayuda a generar tus repartos de manera segura y sencilla.
@@ -238,7 +213,7 @@ require 'nav.php';
 
 
 <!--PARTE DE PREGUNTAS-->
-<div class="bgjd02 col-12">
+<div class="lip col-12">
     <div class="row">
       <div class="col-12 col-md-6 tac2 blb">
         <h2 class="titjd2 tac">Tutoriales</h2>

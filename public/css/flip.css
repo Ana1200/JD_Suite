@@ -57,12 +57,12 @@ p {
   background-size: cover;
 }
 .flip-card-back {
-  font-size: 1.25rem;
+  font-size: 20px;
   text-align: center;
   display: grid;
   place-items: center;
   padding: 5%;
-  background-color: #B1CFC8;
+  background-color: #1F8187;
   transform: rotateY(180deg);
 }
 .flip-card:hover .flip-card-inner {

@@ -65,7 +65,7 @@
     width: 100%;
     padding: 0;
     margin: 0;
-    background: url(../images/taev.png) no-repeat top;
+    background: url(https://www.jdsuite.mx/images/taev.png) no-repeat top;
     background-size: cover;
   }
   .imgbgeco{
@@ -102,11 +102,35 @@
 .form-servicioslp{
     /*margin-top: 15%;*/
     padding:5% 2% 10% 2%;
-    background-color:rgba(255, 255, 255, 0.9);
+    background-color:#ffffffe6;
     border-radius: 15px;
     color: #FFFFFF;
-  }
-  .text-servicioslp {
+}
+.form-servicioslI{
+  margin-top: 25%;
+  margin-bottom: 25%;
+  padding:5% 2% 10% 2%;
+  background-color:#29A8B0;
+  border-radius: 15px;
+  color: #FFFFFF;
+}
+.form-servicioslT{
+  margin-top: 25%;
+  margin-bottom: 25%;
+  padding:5% 2% 10% 2%;
+  background-color:#1F8187;
+  border-radius: 15px;
+  color: #FFFFFF;
+}
+.form-servicioslS{
+  margin-top: 25%;
+  margin-bottom: 25%;
+  padding:5% 2% 10% 2%;
+  background-color:#2B4B6B;
+  border-radius: 15px;
+  color: #FFFFFF;
+}
+.text-servicioslp {
     text-align: center;
     color: #000000;
     font-size: 16px;
@@ -166,9 +190,11 @@
 }
 .lic{
     text-align: center;
-    margin: 2% 15% 2% 2%;
     box-shadow: 10px 10px rgb(207, 209, 209);
     
+}
+.padright{
+  margin-right: 15%;
 }
 .estrellas{
   display:flex;
@@ -201,7 +227,6 @@ h3.precio{
 }
 .bgjd02 {
     background: #FFFFFF;
-    padding: 5% 3% 2% 2%;
     min-height: 50vh;
     margin: 2%;
 }
@@ -311,5 +336,155 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', e
   float:right;
   text-align:left;
 }
+.righ{
+  float:right;
+  text-align:right;
+}
+/*INVOICE*/
+.center {
+  background: #27a8af;
+  width: 100%;
+  border-radius: 50%;
+  align-items: center;
+  text-align: center;
+  font-size: 14px;
+  padding: 10%;
+}
+.vid{
+  height: 100%;
+}
+.wid{
+  height: 100%;
+}
 
+/*CARRUSEL*/
+#carousel img{
+  width:200px;
+  height: 200px;
+}
+#carousel .card {
+  box-shadow: 10px 10px 7px #29A8B0;
+  border-radius: 15px;
+}
+#carousel h3{
+  color: #327dce;
+}
+#carousel {
+  padding: 2%;
+}
 
+/*CABECERA*/
+.imgbgin{
+  width: 100%;
+  height: 560px;
+  padding: 0;
+  margin: 0;
+  background: url(../imagenes/invoicev.png) no-repeat top;
+  background-size: cover;
+}
+#fortext{
+  color:#000000;
+}
+
+.fondoInvoice{
+  background-color: #27a8af;
+}
+
+.container {
+  width: 100%;
+  height: 480px;
+}
+
+#learn-more {
+  fill-opacity: 0;
+  fill: #fff;
+  stroke: #fff;
+  stroke-width: 2;
+  border-radius: 5px;
+  stroke-linejoin: round;
+  -webkit-transition: all 250ms ease-in;
+  transition: all 250ms ease-in;
+  cursor: pointer;
+}
+#learn-more:hover {
+  fill-opacity: 1;
+}
+#learn-more:hover ~ .learn-more-text {
+  fill: #2B4B6B;
+}
+
+.learn-more-text {
+  font-family: 'Roboto';
+  fill: #fff;
+  pointer-events: none;
+  font-size: 14px;
+  -webkit-transition: all 250ms ease-in;
+  transition: all 250ms ease-in;
+}
+
+.center {
+  fill: #2B4B6B;
+}
+
+.pointer {
+  fill: #fff;
+  stroke: #2B4B6B;
+  stroke-width: 2;
+}
+
+.nav-copy {
+  font-family: 'Roboto';
+  fill: #fff;
+  fill-opacity: 1;
+  -webkit-transition: all 250ms ease-in;
+  transition: all 250ms ease-in;
+}
+.nav-copy.changing {
+  fill-opacity: 0;
+}
+
+.service {
+  cursor: pointer;
+}
+.service text {
+  font-size: 14px;
+  font-family: 'Roboto';
+  text-anchor: middle;
+}
+.service .icon-wrapper {
+  -webkit-transform-origin: 50% 50%;
+          transform-origin: 50% 50%;
+}
+.service .icon-wrapper, .service .icon-wrapper > * {
+  -webkit-transition: all 250ms ease-in;
+  transition: all 250ms ease-in;
+}
+.service circle {
+  fill: #2B4B6B;
+}
+.service circle.shadow {
+  fill-opacity: 0;
+  -webkit-filter: url(#service-shadow);
+          filter: url(#service-shadow);
+}
+.service use {
+  fill: #fff;
+}
+.service text {
+  fill: #4d4d4d;
+}
+.service.active .icon-wrapper, .service:hover .icon-wrapper {
+  -webkit-transform: scale(1.15) translateY(-5px);
+          transform: scale(1.15) translateY(-5px);
+}
+.service.active .icon-wrapper, .service.active .icon-wrapper > *, .service:hover .icon-wrapper, .service:hover .icon-wrapper > * {
+  -webkit-transition: all 250ms ease-out;
+  transition: all 250ms ease-out;
+}
+.service.active .icon-wrapper circle.shadow, .service:hover .icon-wrapper circle.shadow {
+  fill-opacity: 0.4;
+}
+.service.active text, .service:hover text {
+  fill: #2B4B6B;
+  font-weight: bold;
+}

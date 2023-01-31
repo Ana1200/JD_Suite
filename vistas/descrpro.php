@@ -1,6 +1,6 @@
 
   <?php
-require 'nav_Tienda.php';
+require 'nav.php';
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -27,10 +27,10 @@ require 'nav_Tienda.php';
           <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
               <div class="carousel-inner">
                 <div class="carousel-item active">
-                  <img src="../public/imagenes/productos/amarillas.jpg" class="d-block w-100" alt="...">
+                  <img src="https://www.jdsuite.mx/productos/CB0000000158.jpg" class="d-block w-100" alt="...">
                 </div>
                 <div class="carousel-item">
-                  <img src="../public/imagenes/productos/revo.jpg" class="d-block w-100" alt="...">
+                  <img src="../public/imagenes/productos/CB0000001513.JPG" class="d-block w-100" alt="...">
                 </div>
                 <div class="carousel-item">
                   <img src="../public/imagenes/productos/CB000000063.jpg" class="d-block w-100" alt="...">
@@ -89,7 +89,12 @@ require 'nav_Tienda.php';
                     </a>
                   </p>
                     <div class="centrado">
-                      <button data-testid="button-component" class="paddbot2  w-50 h-12 border font-bold transition py-3 rounded" ><i class="fas fa-shopping-bag"></i> Comprar</button>
+                      <button data-testid="button-component" class="paddbot2  w-50 h-12 border font-bold transition py-3 rounded" onclick="redirect()"><i class="fas fa-shopping-bag"></i> Comprar</button>
+                      <script type="text/javascript">
+                        function redirect(){
+                          window.location.href="https://www.jdsuite.mx/facturacion-electronica";
+                        }
+                      </script>
                     </div>
                   
             </div>

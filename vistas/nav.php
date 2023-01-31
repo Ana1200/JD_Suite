@@ -15,7 +15,9 @@
     <nav role="navigation">
         <div class="lip">
             <div class="py-3 text-center border-bottom">
-            <img src="../public/imagenes/logoJD.png" alt="" class="invert">
+            <a href="./index.php">
+            <img src="../public/imagenes/logoJD.png"  alt="" class="invert">
+            </a>
             <div class="logo2">
                 <a href="#" class="nav-link" >
                 <i class="fas fa-shopping-cart logo2"></i> 0
@@ -39,7 +41,7 @@
             <a class="nav-link" href="#">JD Rest</a>
             </li>
             <li class="nav-item">
-            <a class="nav-link" href="#">JD Invoice</a>
+            <a class="nav-link" href="./JD_Invoice.php">JD Invoice</a>
             </li>
             <li class="nav-item">
             <a class="nav-link" href="#">JD Ecomm</a>

@@ -1,6 +1,5 @@
-
-  <?php
-require 'nav_Tienda.php';
+<?php
+require 'nav.php';
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -64,10 +63,7 @@ require 'nav_Tienda.php';
 
               <div class="box-footer row">
                 <div class="col-12 col-md-8 tal desk">
-                  <a href="category" class="btn btn-default"><i class="fas fa-chevron-left"></i> Seguir Comprando</a>
-                </div>
-                <div class="col-12 col-md-4 tar">
-                  <button type="submit" id="actcart" class="btn btn-default actcart"><i class="fas fa-sync"></i> Actualizar Carrito</button>
+                  <a href="./shop.php" class="btn btn-default"><i class="fas fa-chevron-left"></i> Seguir Comprando</a>
                 </div>
               </div>
             </form>
