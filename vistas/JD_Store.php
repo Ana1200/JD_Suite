@@ -12,8 +12,11 @@ require 'nav.php';
     <link rel="stylesheet" href="../public/css/style.css">
     
     <link rel="shortcut icon" href="../public/imagenes/favicon.png"/>
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
 </head>
 <body>
@@ -155,62 +158,50 @@ require 'nav.php';
 <!--TPOS LIC--> 
 
 <!--TIPOS DE LICENCIA-->
-        <center>
-        <h1>TIPOS DE LICENCIAS</h1>
-        <p>JD Store se adapta al tamaño de tu negocio y de tu crecimiento, es por ello que desarrollamos varios tipos de licencia. Con ello el único límite son tus ganas de crecer.</p>
-        </center>
+<div class="container">
+              <div class="row">
+              <h1>TIPOS DE LICENCIAS</h1>
+                <div class="col-xs-12 ">
+                  <nav>
+                    <div class="nav nav-tabs nav-fill" id="nav-tab" role="tablist">
+                      <a class="nav-item nav-link active" id="nav-servidor-tab" data-toggle="tab" href="#nav-servidor" role="tab" aria-controls="nav-servidor" aria-selected="true">Store Servidor</a>
+                      <a class="nav-item nav-link" id="nav-terminal-tab" data-toggle="tab" href="#nav-terminal" role="tab" aria-controls="nav-terminal" aria-selected="false">Store Terminal</a>
+                      <a class="nav-item nav-link" id="nav-farmacia-tab" data-toggle="tab" href="#nav-farmacia" role="tab" aria-controls="nav-farmacia" aria-selected="false">Servidor Farmacia</a>
+                      <a class="nav-item nav-link" id="nav-citas-tab" data-toggle="tab" href="#nav-citas" role="tab" aria-controls="nav-citas" aria-selected="false">Servidor Citas</a>
+                      <a class="nav-item nav-link" id="nav-reparto-tab" data-toggle="tab" href="#nav-reparto" role="tab" aria-controls="nav-reparto" aria-selected="false">Servidor Rutas de Reparto</a>
+                    </div>
+                  </nav>
+                  <div class="tab-content py-3 px-3 px-sm-0" id="nav-tabContent">
+                    <div class="tab-pane fade show active" id="nav-servidor" role="tabpanel" aria-labelledby="nav-servidor-tab">
+                    La licencia ideal para tu negocio. JD Store tipo Servidor contiene todos los módulos de tu sistema de Punto de Venta, podrás llevar el control y registro total de tu negocio, de los artículos, clientes, proveedores y demás, al mismo tiempo que tendrás a tu disposición los Reportes adecuados para tomar las decisiones que harán crecer tu negocio.
+                    </div>
+                    <div class="tab-pane fade" id="nav-terminal" role="tabpanel" aria-labelledby="nav-terminal-tab">
+                    Esta licencia es el complemento ideal para la tipo Servidor, ya que nos apoya a crecer nuestro negocio. Si cobrar en una caja ya no es suficiente es hora de que evoluciones y hagas crecer tu punto de venta.
+                    Al adquirir esta licencia podrás conectar otro equipo a tu JD Store, podrás tener dos cajeros operando de manera simultánea y controlar en su totalidad el sistema.
+                    *Requieres una licencia tipo Servidor para adquirir esta licencia
+                    </div>
+                    <div class="tab-pane fade" id="nav-farmacia" role="tabpanel" aria-labelledby="nav-farmacia-tab">
+                    Si tu giro es una farmacia entonces esta es la solución, JD Store tiene un modulo de farmacia que te permitirá gestionar tu venta de antibióticos.
+                    Si tienes un consultorio para potenciar tus ventas, JD Store tiene su modulo para registrar expedientes electrónicos de tus pacientes y emitir recetas desde el mismo sistema.
+                    Rota tu inventario con ayuda de tu doctor y registra los servicios prestados para que cumplas con los requerimientos de la secretaría de salud solicita.
+                    </div>
+                    <div class="tab-pane fade" id="nav-citas" role="tabpanel" aria-labelledby="nav-citas-tab">
+                    Tu propio calendario de ventas en el sistema es posible.
+                    Gestiona tus citas y clientes desde JD Store y dale seguimiento a una venta desde que se aparta y hasta que se vende.
+                    Da de alta cabinas de atención y responsables de atender, para que el sistema asigne actividades a tu personal.
+                    Gestiona anticipos de servicios y liquidaciones al realizarlos, esto te ayudará a asegurar la prestación del servicio.
+                    </div>
+                    <div class="tab-pane fade" id="nav-reparto" role="tabpanel" aria-labelledby="nav-reparto-tab">
+                    Si en tu empresa repartes a domicilio o generas rutas de entrega JD te ayuda a generar tus repartos de manera segura y sencilla.
+                    Maneja los estados de cuenta por cada cliente y administra cada productos que vendes sencillamente.
+                    </div>
+                  </div>
+                
+                </div>
+              </div>
+        </div>
       </div>
-<div class="col-12 ">
-    <div class="row mb-3">
-        <div class="col-md-2 ">
-            <center>
-            <h4>Store Servidor</h4>
-            <p>La licencia ideal para tu negocio. JD Store tipo Servidor contiene todos los módulos de tu sistema de Punto de Venta, podrás llevar el control y registro total de tu negocio, de los artículos, clientes, proveedores y demás, al mismo tiempo que tendrás a tu disposición los Reportes adecuados para tomar las decisiones que harán crecer tu negocio.</p>
-            </center>
-        </div>
-        <div class="col-md-2 ">
-        <center>
-            <h4>Store Terminal</h4>
-            <p>Esta licencia es el complemento ideal para la tipo Servidor, ya que nos apoya a crecer nuestro negocio. Si cobrar en una caja ya no es suficiente es hora de que evoluciones y hagas crecer tu punto de venta.
-
-                Al adquirir esta licencia podrás conectar otro equipo a tu JD Store, podrás tener dos cajeros operando de manera simultánea y controlar en su totalidad el sistema.
-
-                *Requieres una licencia tipo Servidor para adquirir esta licencia</p>
-        </center>
-        </div>
-        <div class="col-md-2 ">
-        <center>
-            <h4>Servidor Farmacia</h4>
-            <p>Si tu giro es una farmacia entonces esta es la solución, JD Store tiene un modulo de farmacia que te permitirá gestionar tu venta de antibióticos.
-
-            Si tienes un consultorio para potenciar tus ventas, JD Store tiene su modulo para registrar expedientes electrónicos de tus pacientes y emitir recetas desde el mismo sistema.
-
-            Rota tu inventario con ayuda de tu doctor y registra los servicios prestados para que cumplas con los requerimientos de la secretaría de salud solicita.</p>
-        </center>
-        </div>
-        <div class="col-md-2 ">
-        <center>
-            <h4>Servidor Citas</h4>
-            <p>Tu propio calendario de ventas en el sistema es posible.
-
-                Gestiona tus citas y clientes desde JD Store y dale seguimiento a una venta desde que se aparta y hasta que se vende.
-
-                Da de alta cabinas de atención y responsables de atender, para que el sistema asigne actividades a tu personal.
-
-                Gestiona anticipos de servicios y liquidaciones al realizarlos, esto te ayudará a asegurar la prestación del servicio.</p>
-        </center>
-        </div>
-        <div class="col-md-2 ">
-        <center>
-            <h4>Servidor Rutas de Reparto</h4>
-            <p>Si en tu empresa repartes a domicilio o generas rutas de entrega JD te ayuda a generar tus repartos de manera segura y sencilla.
-
-                Maneja los estados de cuenta por cada cliente y administra cada productos que vendes sencillamente.</p>
-        </center>
-        </div>
-   </div>
 </div>
-
 
 <!--PARTE DE PREGUNTAS-->
 <div class="lip col-12">
@@ -273,6 +264,8 @@ require 'nav.php';
       <img src="../public/imagenes/whatsapp.png" alt="" style="width: 100%;"/>
     </a>
   </div>
+  <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 </body>
 
