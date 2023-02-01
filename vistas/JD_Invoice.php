@@ -333,7 +333,7 @@ require 'nav.php';
             </div>
         </div>
       </div>
-      <div class="lip">
+      <div class="container">
         <a class="btn btn-primary  w-100" data-toggle="collapse" href="#collapseben" role="button" aria-expanded="false" aria-controls="collapseben">
         <i class="fa fa-sort-desc" style="font-size:24px"></i>¿Qué beneficios tengo con TAE?
         </a>

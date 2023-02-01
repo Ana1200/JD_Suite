@@ -92,7 +92,7 @@ require 'nav.php';
                       <button data-testid="button-component" class="paddbot2  w-50 h-12 border font-bold transition py-3 rounded" onclick="redirect()"><i class="fas fa-shopping-bag"></i> Comprar</button>
                       <script type="text/javascript">
                         function redirect(){
-                          window.location.href="https://www.jdsuite.mx/facturacion-electronica";
+                          window.location.href="./verif_Tienda.php";
                         }
                       </script>
                     </div>

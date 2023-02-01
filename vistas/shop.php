@@ -125,8 +125,7 @@ require 'nav_shop.php';
         </div>
         </div>
     </div>
-  </div>
-
+</div>
   <!--PAGINACION-->
 <div class="pages">
     <ul class="pagination">
