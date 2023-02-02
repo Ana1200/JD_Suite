@@ -1,5 +1,5 @@
 <?php
-require 'nav.php';
+require'nav.php';
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -33,72 +33,14 @@ require 'nav.php';
               <p>¡Adquierelo ahora mismo!</p>
                 <p>Desde $ 3,999.00</p>
             </div>
-          
-          <center>
-              <!-- Modal -->
-          <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#trackerModal"> 
-              <i class="fa fa-pencil"></i> Formulario
-          </button>
-
-          <div class="modal fade" id="trackerModal" tabindex="-1" aria-labelledby="formulario" aria-hidden="true">
-            <div class="modal-dialog" style="min-width: 75%;">
-              <!--Con el min-width manejo el ancho del modal -->
-              <div class="modal-content">
-
-                <div class="modal-header">
-                  <h2 class="modal-title" id="formulario" ><font color="black" face="Comic Sans MS,arial">Formulario</font></h2>
-                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                          <span>&times;</span>
-                          </button>
-                </div>
-                    <div class="modal-body">
-                      <div class="container-fluid">
-                        <form>
-                          <div class="row">
-                            <div class="form-group col-md-6">
-                              <label for="nombre" id="fortext">Nombre</label>
-                              <input type="text" class="form-control" id="nombre" placeholder="Nombre" required>
-                            </div>
-                            <div class="form-group col-md-6">
-                              <label for="correo" class="formulario" id="fortext">Correo</label>
-                              <input type="email" class="form-control" id="correo" placeholder="Correo" required>
-                            </div>
-                          </div>
-                          <div class="row">
-                            <div class="form-group col-md-6">
-                              <label for="celular" class="formulario" id="fortext">Celular</label>
-                              <input type="text" class="form-control" id="Celular"placeholder="Celular">
-                            </div>
-                            <div class="form-group col-md-3">
-                              <span>
-                              <h3><font color="black" face="Comic Sans MS,arial">Producto</font></h3>
-                              <h5><font color="blue" face="Comic Sans MS,arial">JD TAE</font></h5>
-                              </span>
-                            </div>
-                          </div>
-                        </form>
-                      </div>
-                    </div>
-                    <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
-                    <button type="button" class="btn btn-primary">Enviar</button>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              
-              <a href="./shop.php" class="compras" >
-                    <button class="btn btn-light">Adquirir</button>
-              </a>
-              </center>
-              </div>
+          </div>
       </div>
     </div>
   </div>
 
 
 <!--OPCIONES-->
-<div class="bloques">
+<div class="bloques padingbottom">
 <div class="row align-items-md-stretch">
       <div class="col-md-4">
         <div class="color h-80 p-5 rounded-3">
@@ -155,15 +97,13 @@ require 'nav.php';
 </div>
 </div>
 
-<!--TPOS LIC--> 
-
 <!--TIPOS DE LICENCIA-->
-<div class="container">
-              <div class="row">
-              <h1>TIPOS DE LICENCIAS</h1>
-                <div class="col-xs-12 ">
+<div class="container-fluid padingbottom">
+              <div class="row mb-2">
+              <h3>Formulario</h3>
+                <div class="col-md-6 ">
                   <nav>
-                    <div class="nav nav-tabs nav-fill" id="nav-tab" role="tablist">
+                    <div class="nav nav-tabs nav-fill" id="nav-tab" role="tablist" style="font-size: 28px;">
                       <a class="nav-item nav-link active" id="nav-servidor-tab" data-toggle="tab" href="#nav-servidor" role="tab" aria-controls="nav-servidor" aria-selected="true">Store Servidor</a>
                       <a class="nav-item nav-link" id="nav-terminal-tab" data-toggle="tab" href="#nav-terminal" role="tab" aria-controls="nav-terminal" aria-selected="false">Store Terminal</a>
                       <a class="nav-item nav-link" id="nav-farmacia-tab" data-toggle="tab" href="#nav-farmacia" role="tab" aria-controls="nav-farmacia" aria-selected="false">Servidor Farmacia</a>
@@ -171,7 +111,7 @@ require 'nav.php';
                       <a class="nav-item nav-link" id="nav-reparto-tab" data-toggle="tab" href="#nav-reparto" role="tab" aria-controls="nav-reparto" aria-selected="false">Servidor Rutas de Reparto</a>
                     </div>
                   </nav>
-                  <div class="tab-content py-3 px-3 px-sm-0" id="nav-tabContent">
+                  <div class="tab-content py-3 px-3 px-sm-0" id="nav-tabContent"  style="height: 42%; font-size: initial;">
                     <div class="tab-pane fade show active" id="nav-servidor" role="tabpanel" aria-labelledby="nav-servidor-tab">
                     La licencia ideal para tu negocio. JD Store tipo Servidor contiene todos los módulos de tu sistema de Punto de Venta, podrás llevar el control y registro total de tu negocio, de los artículos, clientes, proveedores y demás, al mismo tiempo que tendrás a tu disposición los Reportes adecuados para tomar las decisiones que harán crecer tu negocio.
                     </div>
@@ -191,20 +131,74 @@ require 'nav.php';
                     Da de alta cabinas de atención y responsables de atender, para que el sistema asigne actividades a tu personal.
                     Gestiona anticipos de servicios y liquidaciones al realizarlos, esto te ayudará a asegurar la prestación del servicio.
                     </div>
-                    <div class="tab-pane fade" id="nav-reparto" role="tabpanel" aria-labelledby="nav-reparto-tab">
+                    <div class="tab-pane fade" id="nav-reparto" role="tabpanel" aria-labelledby="nav-reparto-tab" style="font-size: x-large;">
                     Si en tu empresa repartes a domicilio o generas rutas de entrega JD te ayuda a generar tus repartos de manera segura y sencilla.
                     Maneja los estados de cuenta por cada cliente y administra cada productos que vendes sencillamente.
                     </div>
                   </div>
-                
                 </div>
-              </div>
-        </div>
-      </div>
-</div>
+        <div class="col-md-6">
+        <div class="container" id="login">
+			<div class="row main">
+				<div class="main-login main-center" style="padding-top: 10%;">
+				<h2 class="text-center"><i class="far fa-user fa-sm"> &nbsp </i>Registrate</h2>
+					<form class="" method="post" action="#">
+						
+						<div class="form-group">
+							<label for="name" class="cols-sm-2 control-label"><b>Nombre*</b></label>
+							<div class="cols-sm-10">
+								<div class="input-group">
+									<span class="input-group-addon"><i class="fa fa-user fa" aria-hidden="true"></i></span>
+									<input type="text" class="form-control" name="name"id="name"  placeholder="Ingresa tu nombre"required />
+								</div>
+							</div>
+						</div>
 
+						<div class="form-group">
+							<label for="email" class="cols-sm-2 control-label"><b>Correo*</b></label>
+							<div class="cols-sm-10">
+								<div class="input-group">
+									<span class="input-group-addon"><i class="fa fa-envelope fa" aria-hidden="true"></i></span>
+									<input type="text" class="form-control" name="email" id="email"  placeholder="Ingresa tu correo"required />
+								</div>
+							</div>
+						</div>
+
+						<div class="form-group">
+							<label for="pwd" class="cols-sm-2 control-label"><b>Contraseña*</b></label>
+							<div class="cols-sm-10">
+								<div class="input-group">
+									<span class="input-group-addon"><i class="fas fa-key" aria-hidden="true"></i></span>
+									<input type="password" class="form-control" name="pwd" id="pwd"  placeholder="Ingresa tu contraseña" required/>
+								</div>
+							</div>
+						</div>
+
+                        <div class="form-group">
+							<label for="pwd" class="cols-sm-2 control-label"><b>Confirma tu Contraseña*</b></label>
+							<div class="cols-sm-10">
+								<div class="input-group">
+									<span class="input-group-addon"><i class="fas fa-key" aria-hidden="true"></i></span>
+									<input type="password" class="form-control" name="pwd" id="pwd"  placeholder="Confirma tu contraseña"/>
+								</div>
+							</div>
+						</div>
+				
+						<div class="form-group btnregistro"> 
+							<a href="#" target="_blank" type="button" id="button" class="btn btn-primary btn-lg btn-block login-button">Registrate</a>
+						</div>
+						
+					</form>
+				</div>
+			</div>
+		</div>
+  </div>
+</div>
+</div>
+<br>
+<br>
 <!--PARTE DE PREGUNTAS-->
-<div class="lip col-12">
+<div class="container-fluid col-12 padingbottom">
     <div class="row">
       <div class="col-12 col-md-6 tac2 blb">
         <h2 class="titjd2 tac">Tutoriales</h2>
@@ -213,7 +207,7 @@ require 'nav.php';
         </p>
         <center>
         <a href="https://www.youtube.com/watch?v=q1NM5De1JIM&list=PLCHufcZLZMIwcksYnpPP5zEN2TswT9JKz" target="_blank">
-          <button class="imgservicio paddbot btnmasinfo">Videotutoriales</button>
+          <button class="btn btn-primary" style="background-color:#29A8B0;">Videotutoriales</button>
         </a>
         </center>
       </div>
@@ -271,4 +265,6 @@ require 'nav.php';
 
 </html>
     
-   
+  <?php
+  require 'footer.php'
+  ?>
